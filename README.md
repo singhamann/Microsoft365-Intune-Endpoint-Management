@@ -59,7 +59,7 @@ Main objectives:
 
 The Microsoft 365 Admin Center was used to manage users, licenses, and tenant-level administration.
 
-![Microsoft 365 Active Users](screenshots/01-active-users-admin-center.png)
+![Microsoft 365 Active Users](01-active-users-admin-center.png)
 
 ---
 
@@ -67,7 +67,7 @@ The Microsoft 365 Admin Center was used to manage users, licenses, and tenant-le
 
 The Intune Admin Center was opened to manage devices, compliance policies, configuration profiles, and endpoint settings.
 
-![Intune Admin Center Overview](screenshots/02-intune-admin-center-overview.png)
+![Intune Admin Center Overview](02-intune-admin-center-overview.png)
 
 ---
 
@@ -75,7 +75,7 @@ The Intune Admin Center was opened to manage devices, compliance policies, confi
 
 MDM user scope was configured so Windows devices could automatically enroll into Intune when a work or school account was connected.
 
-![MDM User Scope Configuration](screenshots/03-mdm-user-scope-automatic-enrollment.png)
+![MDM User Scope Configuration](03-mdm-user-scope-automatic-enrollment.png)
 
 Configuration used:
 
@@ -96,15 +96,15 @@ Settings → Accounts → Access work or school
 
 The device was connected using the Microsoft 365 work account.
 
-![Access Work or School Setup](screenshots/04-access-work-or-school-setup.png)
+![Access Work or School Setup](04-access-work-or-school-setup.png)
 
 During enrollment, Windows prompted for a PIN using Windows Hello.
 
-![Windows Hello PIN Setup](screenshots/05-windows-hello-pin-setup.png)
+![Windows Hello PIN Setup](05-windows-hello-pin-setup.png)
 
 After setup, the work or school account appeared as connected on the device.
 
-![Work or School Account Connected](screenshots/06-work-school-account-connected.png)
+![Work or School Account Connected](06-work-school-account-connected.png)
 
 ---
 
@@ -112,7 +112,7 @@ After setup, the work or school account appeared as connected on the device.
 
 The enrolled Windows device appeared in Intune under Windows devices.
 
-![Windows Device Compliant](screenshots/07-intune-windows-device-compliant.png)
+![Windows Device Compliant](07-intune-windows-device-compliant.png)
 
 The device showed:
 
@@ -127,15 +127,15 @@ The device showed:
 
 A cloud test user was created in the Microsoft 365 Admin Center.
 
-![Create User Basics](screenshots/08-create-user-basics.png)
+![Create User Basics](08-create-user-basics.png)
 
 A Microsoft 365 Business Premium license was assigned to the test user.
 
-![Assign Business Premium License](screenshots/09-assign-business-premium-license.png)
+![Assign Business Premium License](09-assign-business-premium-license.png)
 
 The user settings were reviewed before finishing the account creation process.
 
-![User Review and Finish](screenshots/10-user-review-and-finish.png)
+![User Review and Finish](10-user-review-and-finish.png)
 
 ---
 
@@ -143,7 +143,7 @@ The user settings were reviewed before finishing the account creation process.
 
 A Windows compliance policy was created from Intune.
 
-![Create Compliance Policy](screenshots/11-create-compliance-policy-platform.png)
+![Create Compliance Policy](11-create-compliance-policy-platform.png)
 
 Policy name:
 
@@ -157,7 +157,7 @@ Description:
 This policy enforces basic security requirements for Windows devices, including password policies, BitLocker encryption, and Defender antivirus settings.
 ```
 
-![Compliance Policy Basics](screenshots/12-compliance-policy-basics.png)
+![Compliance Policy Basics](12-compliance-policy-basics.png)
 
 ---
 
@@ -165,7 +165,7 @@ This policy enforces basic security requirements for Windows devices, including 
 
 The compliance policy included basic security requirements.
 
-![Compliance Policy Settings](screenshots/13-compliance-policy-settings.png)
+![Compliance Policy Settings](13-compliance-policy-settings.png)
 
 Configured settings included:
 
@@ -186,7 +186,7 @@ Configured settings included:
 
 Actions for noncompliant devices were configured.
 
-![Noncompliance Actions](screenshots/14-noncompliance-actions.png)
+![Noncompliance Actions](14-noncompliance-actions.png)
 
 Configured actions included:
 
@@ -199,7 +199,7 @@ Configured actions included:
 
 The compliance policy settings were reviewed before creation.
 
-![Compliance Policy Review](screenshots/15-compliance-policy-review-create.png)
+![Compliance Policy Review](15-compliance-policy-review-create.png)
 
 ---
 
@@ -207,7 +207,7 @@ The compliance policy settings were reviewed before creation.
 
 A Windows Wi-Fi configuration profile was created in Intune.
 
-![Create Wi-Fi Configuration Profile](screenshots/16-create-configuration-profile-wifi.png)
+![Create Wi-Fi Configuration Profile](16-create-configuration-profile-wifi.png)
 
 Profile name:
 
@@ -221,11 +221,11 @@ Description:
 This profile configures the Wi-Fi settings for managed Windows devices.
 ```
 
-![Wi-Fi Profile Basics](screenshots/17-wifi-profile-basics.png)
+![Wi-Fi Profile Basics](17-wifi-profile-basics.png)
 
 The Wi-Fi profile XML was added to the configuration profile.
 
-![Wi-Fi Profile XML Configuration](screenshots/18-wifi-profile-xml-configuration.png)
+![Wi-Fi Profile XML Configuration](18-wifi-profile-xml-configuration.png)
 
 Example XML used:
 
@@ -257,7 +257,7 @@ Example XML used:
 
 The managed Windows device successfully appeared in Intune and reported as compliant.
 
-![Managed Windows Device Final Status](screenshots/19-managed-windows-device-final-status.png)
+![Managed Windows Device Final Status](19-managed-windows-device-final-status.png)
 
 Final device status:
 
