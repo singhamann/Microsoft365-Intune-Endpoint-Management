@@ -98,7 +98,7 @@ The device was connected using the Microsoft 365 work account.
 
 ![Access Work or School Setup](04-access-work-or-school-setup.png)
 
-During enrollment, Windows prompted for a PIN using Windows Hello.
+During enrollment, Windows prompted for a PIN using Windows Security.
 
 ![Windows Hello PIN Setup](05-windows-hello-pin-setup.png)
 
